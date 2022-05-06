@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion-Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1 class="text-center">Validación de fromulario</h1>
+     <form class="form" name="form" action="#" method="post" onsubmit="return validar();">
+       Nombre: <input class="form-control" type="text" name="nombre" placeholder="Ingrese el nombre"><br>
+       Email: <input class="form-control" type="email" name="correo" placeholder="Ingrese el correo"><br>
+       Telefono: <input class="form-control" type="tel" name="telefono" placeholder="Ingrese el telefono"><br>
+       Mensaje: <textarea class="input-textarea" name="mensaje"  cols="35" rows="5" placeholder="Ingrese el mensaje"></textarea><br>
+
+       <button class=".submit-button" onclick="validar();" >Enviar datos</button>
+
+    
+<script src="form.js"></script>
+</body>
+</html>
